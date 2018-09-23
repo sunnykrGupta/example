@@ -81,7 +81,7 @@ params:
       description: The guts of the application.
     - name: Blog
       description: DAEMONSL blog is healthy or not.
-      partial: /custom/metrics
+      partial: api.html
 
   # What header design should we use?
   #
