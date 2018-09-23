@@ -166,7 +166,7 @@ params:
   #
   # Default: true
   # BOOLEAN; `true`, `false`
-  alwaysKeepBrandColor: false
+  alwaysKeepBrandColor: true
 
   # Google Analytics tracking code
   #
