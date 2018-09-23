@@ -120,9 +120,9 @@ params:
   #  -
   #    name: Name
   #    link: https://example.com
-  customTabs:
-   - name: CDN Status
-     link: https://cdn.perfdrive.com/getCdn
+  #customTabs:
+  # - name: CDN Status
+  #   link: https://cdn.perfdrive.com/getCdn
 
 
   # Auto refresh the page
