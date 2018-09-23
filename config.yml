@@ -44,7 +44,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: DAEMONSL status page
+title: DAEMONSL Status
 
 # What language is this site using?
 # Only alters the html[lang] attribute
@@ -112,8 +112,8 @@ params:
   # in the footer and meta tags.
   #
   # Default: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
-  description: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
-
+  description: We continuously monitor the status of sunnykrgupta.github.io and all its related services. If there are any interruptions in service, a note will be posted here.
+  
   # Tabs on homepage
   # Uncomment to enable.
   #
@@ -122,6 +122,10 @@ params:
   #  -
   #    name: Name
   #    link: https://example.com
+  customTabs:
+   - name: CDN Status
+     link: https://cdn.perfdrive.com/getCdn
+
 
   # Auto refresh the page
   # every ~5 min
@@ -150,7 +154,6 @@ params:
   # down: FF8C00
   # notice: 708090
   brand: 181818
-  #ok: 228B22
   ok: 396
   disrupted: FF8C00
   down: DC143C
@@ -165,7 +168,7 @@ params:
   #
   # Default: true
   # BOOLEAN; `true`, `false`
-  alwaysKeepBrandColor: true
+  alwaysKeepBrandColor: false
 
   # Google Analytics tracking code
   #
