@@ -76,12 +76,12 @@ params:
   # For help, see the wiki:
   # https://github.com/mistermantas/cstate/wiki/Customization
   systems:
-    - name: Gateway
+    - name: CDN
+      description: CDN Service Status
     - name: API
-      description: The guts of the application.
-    - name: Blog
-      description: DAEMONSL blog is healthy or not.
-      partial: custom/metrics
+      description: API Services of the application.
+    - name: Website
+      description: DAEMONSL blog status.
 
   # What header design should we use?
   #
